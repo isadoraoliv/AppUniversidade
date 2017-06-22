@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.samaravile.universidade.tela11">
+
+    <LinearLayout
+        android:layout_width="347dp"
+        android:layout_height="420dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="25dp">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/uit"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="512dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6º PERIODO"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="154dp"
+            tools:layout_editor_absoluteY="85dp" />
+
+        <CheckBox
+            android:id="@+id/ihm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Interface Homem Máquina"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="246dp" />
+
+        <CheckBox
+            android:id="@+id/compiladores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Compiladores"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="127dp" />
+
+        <CheckBox
+            android:id="@+id/labEngenharia2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Laboratório de Engenharia de Software II"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="304dp" />
+
+        <CheckBox
+            android:id="@+id/ppi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Programação para a Internet "
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="358dp" />
+
+        <CheckBox
+            android:id="@+id/conceitos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Conceitos e Paradig. de Linguag. Programação"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="415dp" />
+
+        <CheckBox
+            android:id="@+id/engenharia2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Engenharia de Software II"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="184dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

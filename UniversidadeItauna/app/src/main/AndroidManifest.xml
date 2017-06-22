@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.samaravile.universidade">
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Universidade"
+        android:roundIcon="@mipmap/uit"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".nTela1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".tela3" />
+        <activity android:name=".tela4" />
+        <activity android:name=".tela6" />
+        <activity android:name=".tela7" />
+        <activity android:name=".tela8" />
+        <activity android:name=".tela9" />
+        <activity android:name=".tela10" />
+        <activity android:name=".tela11" />
+        <activity android:name=".tela12" />
+        <activity android:name=".tela13" />
+        <activity android:name=".tela14"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.samaravile.universidade.tela12">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="33dp">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            app:srcCompat="@mipmap/uit"
+            tools:layout_editor_absoluteX="172dp"
+            tools:layout_editor_absoluteY="13dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7º PERIODO"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="162dp"
+            tools:layout_editor_absoluteY="82dp" />
+
+        <CheckBox
+            android:id="@+id/labComputacaoParalela"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lab. Comput. Paralela e Sistemas Distribuídos"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="164dp" />
+
+        <CheckBox
+            android:id="@+id/padroes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Padrões de Projeto de Software "
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="221dp" />
+
+        <CheckBox
+            android:id="@+id/projeto1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Projeto Orientado I"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="266dp" />
+
+        <CheckBox
+            android:id="@+id/computacaoPararela"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Computação Paralela e Sistemas Distribuídos"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="112dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

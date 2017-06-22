@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.samaravile.universidade.tela14">
+
+    <LinearLayout
+        android:layout_width="371dp"
+        android:layout_height="462dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="7dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/uit"
+            android:layout_weight="0.23" />
+
+        <TextView
+            android:id="@+id/textoConfirmaDados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DADOS CONFIRMADOS COM SUCESSO!"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="102dp"
+            android:layout_weight="0.11" />
+
+        <Button
+            android:id="@+id/inicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.07"
+            android:onClick="acessarInicio"
+            android:text="INICIO"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="265dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

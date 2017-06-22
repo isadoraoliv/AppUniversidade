@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.samaravile.universidade.tela6">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="25dp">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            app:srcCompat="@mipmap/uit"
+            tools:layout_editor_absoluteX="151dp"
+            tools:layout_editor_absoluteY="3dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1º PERIODO"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="132dp"
+            tools:layout_editor_absoluteY="89dp" />
+
+        <CheckBox
+            android:id="@+id/logica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:duplicateParentState="false"
+            android:text="Introdução à Lógica"
+            android:textColorLink="@android:color/background_dark"
+            android:theme="@style/AppTheme"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="143dp" />
+
+        <CheckBox
+            android:id="@+id/labaeds1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Laboratório de Algoritmos e Estrutura de Dados I"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="199dp" />
+
+        <CheckBox
+            android:id="@+id/calculo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cálculo I"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="303dp" />
+
+        <CheckBox
+            android:id="@+id/aeds1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Algoritmos e Estrutura de Dados I"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="254dp" />
+
+        <CheckBox
+            android:id="@+id/gaal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Geometria Analítica"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="362dp" />
+
+        <CheckBox
+            android:id="@+id/metodologia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Metodologia Científica"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="417dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

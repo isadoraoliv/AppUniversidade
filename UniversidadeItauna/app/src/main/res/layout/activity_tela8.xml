@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.samaravile.universidade.tela8">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="26dp">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="103dp"
+            app:srcCompat="@mipmap/uit"
+            tools:layout_editor_absoluteX="177dp"
+            tools:layout_editor_absoluteY="20dp" />
+
+        <TextView
+            android:id="@+id/terceiro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3º Período"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="171dp"
+            tools:layout_editor_absoluteY="92dp" />
+
+        <CheckBox
+            android:id="@+id/calculoNumerico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cálculo Numérico"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="262dp" />
+
+        <CheckBox
+            android:id="@+id/arquitetura2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Arquitetura II"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="308dp" />
+
+        <CheckBox
+            android:id="@+id/labaeds3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Laboratório de Algoritmos e Estrutura de Dados III"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="176dp" />
+
+        <CheckBox
+            android:id="@+id/etica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ética"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="358dp" />
+
+        <CheckBox
+            android:id="@+id/matematicaDiscreta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Matemática Discreta"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="219dp" />
+
+        <CheckBox
+            android:id="@+id/aeds3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Algoritmos e Estrutura de Dados III"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="136dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

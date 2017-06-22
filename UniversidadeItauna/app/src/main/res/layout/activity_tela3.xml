@@ -1,0 +1,38 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/uit"
+        android:layout_weight="0.28" />
+
+    <Button
+        android:id="@+id/gradeRegular"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:onClick="acessarBotaoGradeRegular"
+        android:text="Grade Regular" />
+
+    <Button
+        android:id="@+id/gradeIrregular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:onClick="acessarBotaoGradeIrregular"
+        android:text="GRADE IRREGULAR" />
+
+    <Button
+        android:id="@+id/confirmaGrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.16"
+        android:onClick="acessaConfirma"
+        android:text="CONFIRMAR GRADE" />
+</LinearLayout>

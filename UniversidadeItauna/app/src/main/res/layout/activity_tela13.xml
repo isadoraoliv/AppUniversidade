@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.samaravile.universidade.tela13">
+
+    <LinearLayout
+        android:layout_width="331dp"
+        android:layout_height="490dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/uit"
+            tools:layout_editor_absoluteX="165dp"
+            tools:layout_editor_absoluteY="16dp"
+            android:layout_weight="0.22" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8º PERIODO"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="154dp"
+            tools:layout_editor_absoluteY="80dp" />
+
+        <CheckBox
+            android:id="@+id/projeto2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Projeto Orientado II"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="223dp" />
+
+        <CheckBox
+            android:id="@+id/administracao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Administração"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="308dp" />
+
+        <CheckBox
+            android:id="@+id/direito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Direito em Informática"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="266dp" />
+
+        <CheckBox
+            android:id="@+id/computacaoGrafica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Computação Gráfica e Multimídia"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="176dp" />
+
+        <CheckBox
+            android:id="@+id/inteligencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inteligência Artificial"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="128dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
