@@ -1,3 +1,6 @@
-Estou rodando a aplicação no meu celular Moto X, pois meu PC é mais antigo e quando abro o emulador ele trava.
-Na tela 4 tem um botão "Confirmar Grade" quando eu clicar nela preciso enviar a mensagem para o servidor tipo "Dados recebidos" e depois o servidor retorna a mensagem para o meu celular "Dados cadastrados com sucesso!". 
-
+Trabalho de Faculdade como requisito parcial para a matéria de Redes de Computadores II
+Modelo de um aplicativo para a Universidade de Itaúna
+No aplicativo o próprio aluno irá montar a sua grade escolar e em seguida ao confirmar a grade é enviado um e-mail para
+a secretária para pode aprovar a grade.
+Com esse aplicativo procurarmos enviar aquelas filas enormes que tem no começo do semestre, onde cada aluno tem que entregar
+uma folha com a grade montada na secretária.
