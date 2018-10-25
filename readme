@@ -1,6 +1,9 @@
-Trabalho de Faculdade como requisito parcial para a matéria de Redes de Computadores II
-Modelo de um aplicativo para a Universidade de Itaúna
-No aplicativo o próprio aluno irá montar a sua grade escolar e em seguida ao confirmar a grade é enviado um e-mail para
-a secretária para pode aprovar a grade.
-Com esse aplicativo procurarmos enviar aquelas filas enormes que tem no começo do semestre, onde cada aluno tem que entregar
-uma folha com a grade montada na secretária.
+## App University
+
+College work as a partial requirement for the subject of Computer Networks II.
+Model of an application for the University of Itaúna.
+
+In the application the student himself will assemble his school grid and then upon confirming the grid an email will be sent to
+the desk to can approve the grid.
+With this application we try to send those huge queues that have at the beginning of the semester, where each student has to deliver
+a sheet with the grid mounted on the desk.
